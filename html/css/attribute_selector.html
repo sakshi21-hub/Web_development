@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>attribute selector</title>
+        <style>
+            input[type=email]
+            {
+                color:rgb(189, 91, 5);
+                background-color: black;
+            }
+            input[type=password]
+            {
+               color: rgb(116, 4, 116);
+               background-color: thistle;
+            }
+            input[type=submit]
+            {
+                color: burlywood;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post">
+            <label>Email id</label>
+            <input type="email" name="em"><br><br>
+            <label>Password</label>
+            <input type="password" name="pwd"><br><br>
+            <input type="submit" value="save">
+        </form>
+    </body>
+</html>
